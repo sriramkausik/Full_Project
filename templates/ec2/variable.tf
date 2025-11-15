@@ -1,13 +1,13 @@
 variable "accesskey" {
   #description = "AKIAZJZGHHCC7YZEJB7L"
   #type        = string
-  default     =  "AKIAZJZGHHCC7YZEJB7L"
+  default     =  ""
   }
 
 variable "secretkey" {
   #description = "qBmGwCSHqXrU8w1Xn7tiwwrgJgYJJj27rJ3rmvwF"
   #type        = string
-  default = "qBmGwCSHqXrU8w1Xn7tiwwrgJgYJJj27rJ3rmvwF"
+  default = ""
 }
 
 
