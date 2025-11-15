@@ -1,0 +1,9 @@
+This is wriiten in such a way that "each service" "each App" in "each Env" has a state file (seperete workspace).
+
+For example : terraform workspace new dev_app2 is the workspace for app2 in dev env && 
+                terraform workspace new stg_app2 is the workspace for app2 in stg env.
+
+Terraform cmd to create a workspace : terraform workspace new dev_app2.
+
+Terraform cmd to Terraform plan with that tfvars.file : terraform plan -var-file="dev/App1/dev_app1_ec2.tfvars"
+Terraform cmd to Terraform apply with that tfvars.file : terraform apply -var-file="dev/App1/dev_app1_ec2.tfvars"
