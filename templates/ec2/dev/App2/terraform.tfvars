@@ -1,1 +1,0 @@
-ami_id = "ami-0623bc4c9a53fe562"
