@@ -1,4 +1,5 @@
 ﻿# Define variables
+
 $BucketName = "terraform-statefile-v1.1"
 $Region     = "us-east-1"
 $PolicyFile = "E:\Full_Project\bucket-policy.json"

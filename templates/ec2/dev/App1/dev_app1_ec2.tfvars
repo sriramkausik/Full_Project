@@ -1,3 +1,27 @@
-ami_id   = "ami-0623bc4c9a53fe562"
-instance_type = "t2.micro"
-tags     = "App1-dev-Instance"
+instances = [
+
+  {
+    name          = "web-2"
+    ami           = "ami-0fa3fe0fa7920f68e"
+    instance_type = "t3.small"
+    subnet_id     = "subnet-0a93c65a68e9f1f6c"
+    tags = {
+      Environment = "dev"
+      Owner       = "shriram"
+    }
+  },
+
+    {
+    name          = "web-3"
+    ami           = "ami-0fa3fe0fa7920f68e"
+    instance_type = "t3.small"
+    subnet_id     = "subnet-0a93c65a68e9f1f6c"
+    tags = {
+      Environment = "dev"
+      Owner       = "shriram"
+    }
+  }
+]
+
+
+
